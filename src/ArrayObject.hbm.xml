@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<hibernate-mapping>
+<class name="ArrayObject" table="oberon">
+	<id name = "id" ><generator class="increment"/></id>
+    <property name="NAME" column="NAME" type="java.lang.String"  />
+    <property name="SPA_IP" column="SPA_IP" type="java.lang.String"  />
+    <property name="SPB_IP" column="SPB_IP" type="java.lang.String"  />
+    <property name="BMCA_IP" column="BMCB_IP" type="java.lang.String"  />
+    <property name="DATE" column="DATE" type="java.lang.String"  />
+    <property name="OWNER" column="OWNER" type="java.lang.String" />
+     <property name="MODE" column="MODE" type="java.lang.String" />
+  </class>
+ 
+</hibernate-mapping>
